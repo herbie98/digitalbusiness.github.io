@@ -1,0 +1,81 @@
+body {
+    margin: 0;/*con esto no deja espacios en blanco en toda la pagina*/
+    font-family: Arial, Helvetica, sans-serif;/*tipo de texto y estilo*/
+    background-color: rgb(138, 138, 138);/*color del fondo de la pagina*/
+}
+
+div {
+    display: block;/*en general para todos los div que se agregen*/
+}
+
+img {
+    display: block;/*en general todas la imagenes se desplazan como en bloques*/
+}
+
+.section {/*todo el contenido de la pagina excepto el header*/
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.header {
+    background-color: rgb(186, 186, 186);
+    padding: 30px;
+    text-align: center;
+}
+
+.img {
+    margin-left: auto;/*margen en blaco de lado izquierdo con los dos margin en automatico
+    se logra que las imagenes queden al centro*/
+    margin-right: auto;/*margen en blanco de lado derecho*/
+    width: 40%; /*tamaño de las imagenes*/
+  }
+
+.topnav { /*el estilo del la lista ul la barra de la navegacion*/
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.li {
+    float: left;
+}
+
+.li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#contacto {
+    float: right;
+    background-color: #008CBA;
+}
+
+.contenido {
+    text-align: justify;
+    align-content: center;
+}
+
+.footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: bottom;
+}
