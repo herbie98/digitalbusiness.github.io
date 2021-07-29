@@ -27,7 +27,6 @@ img {
     margin-left: auto;/*margen en blaco de lado izquierdo con los dos margin en automatico
     se logra que las imagenes queden al centro*/
     margin-right: auto;/*margen en blanco de lado derecho*/
-    width: 40%; /*tamaño de las imagenes*/
   }
 
 .topnav { /*el estilo del la lista ul la barra de la navegacion*/
